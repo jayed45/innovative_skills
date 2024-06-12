@@ -1,0 +1,34 @@
+1. Text preprocessing is a crucial step in natural language processing (NLP) that involves transforming raw text into a format
+   that can be effectively analyzed and understood by machine learning algorithms. The primary goal is to clean and normalize the text,
+   making it easier for models to extract meaningful patterns.
+
+2. Tokenization is the process of splitting text into smaller units called tokens.
+   i. Tokens are the basic units used for further text processing and analysis,
+      such as parsing, part-of-speech tagging, and machine learning model input.
+   ii. Tokens serve as features in NLP models, making it easier to analyze text data.   
+
+3. Stemming: Reduces words to their root form by removing suffixes or prefixes. Ex: running -> run   
+   Lemmatization: Reduces words to their base or dictionary form (lemma) by considering the word's meaning and context. Ex: better -> good
+
+4. Handling punctuation in text preprocessing involves removing or replacing punctuation marks to clean the text data. 
+
+5. Stop words do not contribute significant meaning and can be considered noise in the data.
+   Removing them helps focus on the more meaningful words and the model does not get confisued with those stop words.
+   Thus improves model efficiency.
+
+6. Process: Lowercasing involves converting all characters in the text to their lowercase equivalents. 
+            This can be done simply by applying a function to transform uppercase letters to lowercase across the entire text.   
+   Significance:
+
+      1. Uniformity: Text data can come in various cases (uppercase, lowercase, title case). Lowercasing ensures that all text is 
+         uniform, making it easier to compare and analyze words. For example, "Apple", "apple", and "APPLE" would all be treated as 
+         the same word after lowercasing.
+      2. Lowercasing helps in achieving consistent results   
+
+10. Stop words are commonly used words in a language that are often filtered out during text preprocessing in natural language 
+    processing (NLP) tasks. These words typically do not carry significant meaning and are unlikely to contribute to the understanding
+    or analysis of the text. Examples of stop words include "and", "the", "is", "in", "at", etc.
+
+    i. Retaining Context: Stop words can sometimes provide important context or grammatical structure to the text.
+    ii. Semantic Analysis: In certain cases, stop words might carry semantic value or sentiment. For example, negation words like "not" 
+        can completely change the meaning of a sentence.
