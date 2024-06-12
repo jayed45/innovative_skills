@@ -1,0 +1,7 @@
+7. For example, by adding the values of multiple columns or by using conditional logic on other columns.
+   Ex: df['new_column'] = df['column1'] + df['column2']
+
+8. iloc: To access data based on its numerical position.
+   loc: To access data based on its label.   
+
+9. In Pandas, pivot allows reorganizing or reshaping data by rotating the rows and columns.    
